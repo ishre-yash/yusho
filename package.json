@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "npx tailwindcss -o /assets/css/tailwind.css --minify"
+    "build": "npx tailwindcss -o assets/css/tailwind.css --minify"
   },
   "keywords": [],
   "author": "ishreyash",

@@ -6,8 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>yusho</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/tailwind.css" />
+    <!-- https://webgeek.xyz/extravel/ -->
   </head>
-  <body>
-    <h1>Hello</h1>
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="fixed z-50 w-full bg-white shadow-md">
+      <div
+        class="container mx-auto p-6 lg:flex lg:items-center lg:justify-between"
+      >
+        <div class="flex items-center justify-between">
+          <a>
+            <img class="w-32" src="/assets/img/yusho logo.svg" alt="yusho logo"
+          /></a>
+
+          <!-- Mobile menu button -->
+          <div class="flex lg:hidden">
+            <button
+              type="button"
+              class="rounded border border-sky-600 bg-sky-500 p-1 px-2 text-white shadow-xl"
+              aria-label="toggle menu"
+              id="menu-button"
+            >
+              <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                <path
+                  fill-rule="evenodd"
+                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="mt-4 flex hidden flex-col space-y-4 text-base font-semibold capitalize text-[#0b315e] lg:-mx-6 lg:mt-0 lg:block lg:flex-row lg:space-y-0"
+          id="menu"
+        >
+          <a class="mt-4 hover:text-sky-500 lg:px-6" href="#">Home</a>
+          <a class="hover:text-sky-500 lg:px-6" href="#">Services</a>
+          <a class="hover:text-sky-500 lg:px-6" href="#">Country</a>
+          <a class="hover:text-sky-500 lg:px-6" href="#">Testimonials</a>
+          <a class="hover:text-sky-500 lg:px-6" href="#">Contact Us</a>
+          <a class="hover:text-sky-500 lg:px-6" href="#">Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="h-full bg-white pt-20 dark:bg-transparent lg:h-[1000px]"
+      style="
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+        background-image: url('/assets/img/hero-bg.png');
+      "
+    >
+      <div class="container mx-auto flex flex-col items-center py-32">
+        <div
+          class="mb-5 w-11/12 flex-col items-center justify-center sm:mb-10 sm:w-2/3 lg:flex"
+        >
+          <h1
+            class="text-center text-3xl font-semibold leading-10 tracking-wider text-gray-800 dark:text-white md:text-5xl md:leading-10 lg:text-6xl xl:text-7xl"
+          >
+            Where Your<br />
+            Journey Starts !!!
+          </h1>
+          <p
+            class="mt-5 text-center text-sm font-normal text-[#717171] sm:mt-10 lg:w-10/12 lg:text-base xl:text-xl"
+          >
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking.
+          </p>
+        </div>
+        <div class="flex items-center justify-center space-x-4">
+          <button
+            class="rounded-lg bg-sky-400 py-3 px-4 text-base font-semibold text-white hover:bg-sky-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
+          >
+            Book A Tour
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
