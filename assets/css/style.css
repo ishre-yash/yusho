@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 @layer base {
-    html {
+    body {
       font-family: 'Jost', sans-serif;
     }
   }
