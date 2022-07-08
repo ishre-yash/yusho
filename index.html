@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="/assets/css/tailwind.css" />
     <!-- https://webgeek.xyz/extravel/ -->
   </head>
-  <body class="bg-white">
+  <body
+    class="bg-white"
+    style="
+      background-image: url('/assets/img/pattern.svg');
+      background-position: center;
+    "
+  >
     <!-- Navbar -->
     <nav class="fixed z-50 w-full bg-white shadow-md">
       <div
@@ -53,7 +59,7 @@
     </nav>
 
     <section
-      class="relative h-full bg-white pt-20 dark:bg-transparent lg:h-[1000px]"
+      class="relative h-full pt-20 dark:bg-transparent lg:h-[1000px]"
       style="
         background-position: bottom;
         background-repeat: no-repeat;
@@ -93,379 +99,819 @@
       </div>
     </section>
     <!-- <section
-      class="relative h-full bg-gray-50 pt-20 dark:bg-transparent"
+      class="relative h-[1000px] bg-gray-50 pt-20 dark:bg-transparent"
       style="
         background-repeat: no-repeat;
         background-size: 100%;
         background-image: url('/assets/img/service-bg.png');
       "
     ></section> -->
-
-    <main
-      class="bg-white"
-      style="
-        background-image: url('/assets/img/pattern.svg');
-        background-position: center;
-      "
-    >
-      <section class="py-24">
-        <div class="container mx-auto px-4">
-          <div class="mx-auto mb-12 text-center xl:max-w-4xl">
-            <h1
-              class="mb-4 text-3xl font-bold leading-tight tracking-tighter md:text-4xl"
+    <!-- ************************** Services ************************** -->
+    <section class="py-24">
+      <div class="container mx-auto px-4">
+        <div class="mx-auto mb-12 text-center xl:max-w-4xl">
+          <h1
+            class="mb-4 text-3xl font-bold leading-tight tracking-tighter md:text-4xl"
+          >
+            Gain more insight into how people use your
+          </h1>
+          <p class="text-lg font-medium text-[#556987] md:text-xl">
+            With our integrated CRM, project management, collaboration and
+            invoicing capabilities, you can manage every aspect of your business
+            in one secure platform.
+          </p>
+        </div>
+        <div class="-mx-4 flex flex-wrap md:flex-nowrap">
+          <div class="mb-8 w-full px-4 lg:mb-0 lg:w-1/3 lg:pt-6">
+            <div
+              class="rounded-md p-8 text-center transition duration-200 hover:bg-white hover:shadow-xl lg:mb-6"
             >
-              Gain more insight into how people use your
-            </h1>
-            <p class="text-lg font-medium text-[#556987] md:text-xl">
-              With our integrated CRM, project management, collaboration and
-              invoicing capabilities, you can manage every aspect of your
-              business in one secure platform.
-            </p>
+              <div
+                class="mx-auto mb-6 inline-flex h-16 w-16 items-center justify-center rounded-lg bg-sky-500 text-white"
+              >
+                <svg
+                  width="24"
+                  height="21"
+                  viewBox="0 0 24 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 18.63H5C4.20435 18.63 3.44129 18.3139 2.87868 17.7513C2.31607 17.1887 2 16.4257 2 15.63V7.63C2 7.36479 1.89464 7.11043 1.70711 6.9229C1.51957 6.73536 1.26522 6.63 1 6.63C0.734784 6.63 0.48043 6.73536 0.292893 6.9229C0.105357 7.11043 0 7.36479 0 7.63L0 15.63C0 16.9561 0.526784 18.2279 1.46447 19.1655C2.40215 20.1032 3.67392 20.63 5 20.63H17C17.2652 20.63 17.5196 20.5246 17.7071 20.3371C17.8946 20.1496 18 19.8952 18 19.63C18 19.3648 17.8946 19.1104 17.7071 18.9229C17.5196 18.7354 17.2652 18.63 17 18.63ZM21 0.630005H7C6.20435 0.630005 5.44129 0.946075 4.87868 1.50868C4.31607 2.07129 4 2.83436 4 3.63V13.63C4 14.4257 4.31607 15.1887 4.87868 15.7513C5.44129 16.3139 6.20435 16.63 7 16.63H21C21.7956 16.63 22.5587 16.3139 23.1213 15.7513C23.6839 15.1887 24 14.4257 24 13.63V3.63C24 2.83436 23.6839 2.07129 23.1213 1.50868C22.5587 0.946075 21.7956 0.630005 21 0.630005ZM20.59 2.63L14.71 8.51C14.617 8.60373 14.5064 8.67813 14.3846 8.7289C14.2627 8.77966 14.132 8.8058 14 8.8058C13.868 8.8058 13.7373 8.77966 13.6154 8.7289C13.4936 8.67813 13.383 8.60373 13.29 8.51L7.41 2.63H20.59ZM22 13.63C22 13.8952 21.8946 14.1496 21.7071 14.3371C21.5196 14.5246 21.2652 14.63 21 14.63H7C6.73478 14.63 6.48043 14.5246 6.29289 14.3371C6.10536 14.1496 6 13.8952 6 13.63V4L11.88 9.88C12.4425 10.4418 13.205 10.7574 14 10.7574C14.795 10.7574 15.5575 10.4418 16.12 9.88L22 4V13.63Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="mb-4 text-xl font-bold leading-tight md:text-2xl">
+                Measure your performance
+              </h3>
+              <p class="font-medium text-[#556987]">
+                Stay connected with your team and make quick decisions wherever
+                you are.
+              </p>
+            </div>
+            <div
+              class="rounded-md p-8 text-center transition duration-200 hover:bg-white hover:shadow-xl"
+            >
+              <div
+                class="mx-auto mb-6 inline-flex h-16 w-16 items-center justify-center rounded-lg bg-sky-500 text-white"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 18H9.24C9.37161 18.0008 9.50207 17.9755 9.62391 17.9258C9.74574 17.876 9.85656 17.8027 9.95 17.71L16.87 10.78L19.71 8C19.8037 7.90704 19.8781 7.79644 19.9289 7.67458C19.9797 7.55272 20.0058 7.42201 20.0058 7.29C20.0058 7.15799 19.9797 7.02728 19.9289 6.90542C19.8781 6.78356 19.8037 6.67296 19.71 6.58L15.47 2.29C15.377 2.19627 15.2664 2.12188 15.1446 2.07111C15.0227 2.02034 14.892 1.9942 14.76 1.9942C14.628 1.9942 14.4973 2.02034 14.3754 2.07111C14.2536 2.12188 14.143 2.19627 14.05 2.29L11.23 5.12L4.29 12.05C4.19732 12.1434 4.12399 12.2543 4.07423 12.3761C4.02446 12.4979 3.99924 12.6284 4 12.76V17C4 17.2652 4.10536 17.5196 4.29289 17.7071C4.48043 17.8946 4.73478 18 5 18ZM14.76 4.41L17.59 7.24L16.17 8.66L13.34 5.83L14.76 4.41ZM6 13.17L11.93 7.24L14.76 10.07L8.83 16H6V13.17ZM21 20H3C2.73478 20 2.48043 20.1054 2.29289 20.2929C2.10536 20.4804 2 20.7348 2 21C2 21.2652 2.10536 21.5196 2.29289 21.7071C2.48043 21.8946 2.73478 22 3 22H21C21.2652 22 21.5196 21.8946 21.7071 21.7071C21.8946 21.5196 22 21.2652 22 21C22 20.7348 21.8946 20.4804 21.7071 20.2929C21.5196 20.1054 21.2652 20 21 20Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="mb-4 text-xl font-bold leading-tight md:text-2xl">
+                Build your website
+              </h3>
+              <p class="font-medium text-[#556987]">
+                A tool that lets you build a dream website even if you know
+                nothing about web design or programming.
+              </p>
+            </div>
           </div>
-          <div class="-mx-4 flex flex-wrap md:flex-nowrap">
-            <div class="mb-8 w-full px-4 lg:mb-0 lg:w-1/3 lg:pt-6">
+          <div class="mb-8 w-full px-4 lg:mb-0 lg:w-1/3">
+            <img
+              class="mx-auto rounded-xl"
+              src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
+              alt=""
+            />
+          </div>
+          <div class="w-full px-4 lg:w-1/3 lg:pt-6">
+            <div
+              class="rounded-md p-8 text-center transition duration-200 hover:bg-white hover:shadow-xl lg:mb-6"
+            >
               <div
-                class="rounded-md p-8 text-center transition duration-200 hover:bg-white hover:shadow-xl lg:mb-6"
+                class="mx-auto mb-6 inline-flex h-16 w-16 items-center justify-center rounded-lg bg-sky-500 text-white"
               >
-                <div
-                  class="mx-auto mb-6 inline-flex h-16 w-16 items-center justify-center rounded-lg bg-sky-500 text-white"
+                <svg
+                  width="22"
+                  height="12"
+                  viewBox="0 0 22 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    width="24"
-                    height="21"
-                    viewBox="0 0 24 21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 18.63H5C4.20435 18.63 3.44129 18.3139 2.87868 17.7513C2.31607 17.1887 2 16.4257 2 15.63V7.63C2 7.36479 1.89464 7.11043 1.70711 6.9229C1.51957 6.73536 1.26522 6.63 1 6.63C0.734784 6.63 0.48043 6.73536 0.292893 6.9229C0.105357 7.11043 0 7.36479 0 7.63L0 15.63C0 16.9561 0.526784 18.2279 1.46447 19.1655C2.40215 20.1032 3.67392 20.63 5 20.63H17C17.2652 20.63 17.5196 20.5246 17.7071 20.3371C17.8946 20.1496 18 19.8952 18 19.63C18 19.3648 17.8946 19.1104 17.7071 18.9229C17.5196 18.7354 17.2652 18.63 17 18.63ZM21 0.630005H7C6.20435 0.630005 5.44129 0.946075 4.87868 1.50868C4.31607 2.07129 4 2.83436 4 3.63V13.63C4 14.4257 4.31607 15.1887 4.87868 15.7513C5.44129 16.3139 6.20435 16.63 7 16.63H21C21.7956 16.63 22.5587 16.3139 23.1213 15.7513C23.6839 15.1887 24 14.4257 24 13.63V3.63C24 2.83436 23.6839 2.07129 23.1213 1.50868C22.5587 0.946075 21.7956 0.630005 21 0.630005ZM20.59 2.63L14.71 8.51C14.617 8.60373 14.5064 8.67813 14.3846 8.7289C14.2627 8.77966 14.132 8.8058 14 8.8058C13.868 8.8058 13.7373 8.77966 13.6154 8.7289C13.4936 8.67813 13.383 8.60373 13.29 8.51L7.41 2.63H20.59ZM22 13.63C22 13.8952 21.8946 14.1496 21.7071 14.3371C21.5196 14.5246 21.2652 14.63 21 14.63H7C6.73478 14.63 6.48043 14.5246 6.29289 14.3371C6.10536 14.1496 6 13.8952 6 13.63V4L11.88 9.88C12.4425 10.4418 13.205 10.7574 14 10.7574C14.795 10.7574 15.5575 10.4418 16.12 9.88L22 4V13.63Z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </div>
-                <h3 class="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                  Measure your performance
-                </h3>
-                <p class="font-medium text-[#556987]">
-                  Stay connected with your team and make quick decisions
-                  wherever you are.
-                </p>
+                  <path
+                    d="M20.71 1.29C20.617 1.19627 20.5064 1.12188 20.3846 1.07111C20.2627 1.02034 20.132 0.994202 20 0.994202C19.868 0.994202 19.7373 1.02034 19.6154 1.07111C19.4936 1.12188 19.383 1.19627 19.29 1.29L13 7.59L8.71 3.29C8.61704 3.19627 8.50644 3.12188 8.38458 3.07111C8.26272 3.02034 8.13201 2.9942 8 2.9942C7.86799 2.9942 7.73728 3.02034 7.61542 3.07111C7.49356 3.12188 7.38296 3.19627 7.29 3.29L1.29 9.29C1.19627 9.38296 1.12188 9.49356 1.07111 9.61542C1.02034 9.73728 0.994202 9.86799 0.994202 10C0.994202 10.132 1.02034 10.2627 1.07111 10.3846C1.12188 10.5064 1.19627 10.617 1.29 10.71C1.38296 10.8037 1.49356 10.8781 1.61542 10.9289C1.73728 10.9797 1.86799 11.0058 2 11.0058C2.13201 11.0058 2.26272 10.9797 2.38458 10.9289C2.50644 10.8781 2.61704 10.8037 2.71 10.71L8 5.41L12.29 9.71C12.383 9.80373 12.4936 9.87812 12.6154 9.92889C12.7373 9.97966 12.868 10.0058 13 10.0058C13.132 10.0058 13.2627 9.97966 13.3846 9.92889C13.5064 9.87812 13.617 9.80373 13.71 9.71L20.71 2.71C20.8037 2.61704 20.8781 2.50644 20.9289 2.38458C20.9797 2.26272 21.0058 2.13201 21.0058 2C21.0058 1.86799 20.9797 1.73728 20.9289 1.61542C20.8781 1.49356 20.8037 1.38296 20.71 1.29Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
               </div>
-              <div
-                class="rounded-md p-8 text-center transition duration-200 hover:bg-white hover:shadow-xl"
-              >
-                <div
-                  class="mx-auto mb-6 inline-flex h-16 w-16 items-center justify-center rounded-lg bg-sky-500 text-white"
-                >
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5 18H9.24C9.37161 18.0008 9.50207 17.9755 9.62391 17.9258C9.74574 17.876 9.85656 17.8027 9.95 17.71L16.87 10.78L19.71 8C19.8037 7.90704 19.8781 7.79644 19.9289 7.67458C19.9797 7.55272 20.0058 7.42201 20.0058 7.29C20.0058 7.15799 19.9797 7.02728 19.9289 6.90542C19.8781 6.78356 19.8037 6.67296 19.71 6.58L15.47 2.29C15.377 2.19627 15.2664 2.12188 15.1446 2.07111C15.0227 2.02034 14.892 1.9942 14.76 1.9942C14.628 1.9942 14.4973 2.02034 14.3754 2.07111C14.2536 2.12188 14.143 2.19627 14.05 2.29L11.23 5.12L4.29 12.05C4.19732 12.1434 4.12399 12.2543 4.07423 12.3761C4.02446 12.4979 3.99924 12.6284 4 12.76V17C4 17.2652 4.10536 17.5196 4.29289 17.7071C4.48043 17.8946 4.73478 18 5 18ZM14.76 4.41L17.59 7.24L16.17 8.66L13.34 5.83L14.76 4.41ZM6 13.17L11.93 7.24L14.76 10.07L8.83 16H6V13.17ZM21 20H3C2.73478 20 2.48043 20.1054 2.29289 20.2929C2.10536 20.4804 2 20.7348 2 21C2 21.2652 2.10536 21.5196 2.29289 21.7071C2.48043 21.8946 2.73478 22 3 22H21C21.2652 22 21.5196 21.8946 21.7071 21.7071C21.8946 21.5196 22 21.2652 22 21C22 20.7348 21.8946 20.4804 21.7071 20.2929C21.5196 20.1054 21.2652 20 21 20Z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </div>
-                <h3 class="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                  Build your website
-                </h3>
-                <p class="font-medium text-[#556987]">
-                  A tool that lets you build a dream website even if you know
-                  nothing about web design or programming.
-                </p>
-              </div>
+              <h3 class="mb-4 text-xl font-bold leading-tight md:text-2xl">
+                Custom analytics
+              </h3>
+              <p class="font-medium text-[#556987]">
+                Get a complete sales dashboard in the cloud. See activity,
+                revenue and social metrics all in one place.
+              </p>
             </div>
-            <div class="mb-8 w-full px-4 lg:mb-0 lg:w-1/3">
-              <img
-                class="mx-auto rounded-xl"
-                src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
-                alt=""
-              />
-            </div>
-            <div class="w-full px-4 lg:w-1/3 lg:pt-6">
+            <div
+              class="rounded-md p-8 text-center transition duration-200 hover:bg-white hover:shadow-xl"
+            >
               <div
-                class="rounded-md p-8 text-center transition duration-200 hover:bg-white hover:shadow-xl lg:mb-6"
+                class="mx-auto mb-6 inline-flex h-16 w-16 items-center justify-center rounded-lg bg-sky-500 text-white"
               >
-                <div
-                  class="mx-auto mb-6 inline-flex h-16 w-16 items-center justify-center rounded-lg bg-sky-500 text-white"
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    width="22"
-                    height="12"
-                    viewBox="0 0 22 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20.71 1.29C20.617 1.19627 20.5064 1.12188 20.3846 1.07111C20.2627 1.02034 20.132 0.994202 20 0.994202C19.868 0.994202 19.7373 1.02034 19.6154 1.07111C19.4936 1.12188 19.383 1.19627 19.29 1.29L13 7.59L8.71 3.29C8.61704 3.19627 8.50644 3.12188 8.38458 3.07111C8.26272 3.02034 8.13201 2.9942 8 2.9942C7.86799 2.9942 7.73728 3.02034 7.61542 3.07111C7.49356 3.12188 7.38296 3.19627 7.29 3.29L1.29 9.29C1.19627 9.38296 1.12188 9.49356 1.07111 9.61542C1.02034 9.73728 0.994202 9.86799 0.994202 10C0.994202 10.132 1.02034 10.2627 1.07111 10.3846C1.12188 10.5064 1.19627 10.617 1.29 10.71C1.38296 10.8037 1.49356 10.8781 1.61542 10.9289C1.73728 10.9797 1.86799 11.0058 2 11.0058C2.13201 11.0058 2.26272 10.9797 2.38458 10.9289C2.50644 10.8781 2.61704 10.8037 2.71 10.71L8 5.41L12.29 9.71C12.383 9.80373 12.4936 9.87812 12.6154 9.92889C12.7373 9.97966 12.868 10.0058 13 10.0058C13.132 10.0058 13.2627 9.97966 13.3846 9.92889C13.5064 9.87812 13.617 9.80373 13.71 9.71L20.71 2.71C20.8037 2.61704 20.8781 2.50644 20.9289 2.38458C20.9797 2.26272 21.0058 2.13201 21.0058 2C21.0058 1.86799 20.9797 1.73728 20.9289 1.61542C20.8781 1.49356 20.8037 1.38296 20.71 1.29Z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </div>
-                <h3 class="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                  Custom analytics
-                </h3>
-                <p class="font-medium text-[#556987]">
-                  Get a complete sales dashboard in the cloud. See activity,
-                  revenue and social metrics all in one place.
-                </p>
+                  <path
+                    d="M10 13H3C2.73478 13 2.48043 13.1054 2.29289 13.2929C2.10536 13.4804 2 13.7348 2 14V21C2 21.2652 2.10536 21.5196 2.29289 21.7071C2.48043 21.8946 2.73478 22 3 22H10C10.2652 22 10.5196 21.8946 10.7071 21.7071C10.8946 21.5196 11 21.2652 11 21V14C11 13.7348 10.8946 13.4804 10.7071 13.2929C10.5196 13.1054 10.2652 13 10 13ZM9 20H4V15H9V20ZM21 2H14C13.7348 2 13.4804 2.10536 13.2929 2.29289C13.1054 2.48043 13 2.73478 13 3V10C13 10.2652 13.1054 10.5196 13.2929 10.7071C13.4804 10.8946 13.7348 11 14 11H21C21.2652 11 21.5196 10.8946 21.7071 10.7071C21.8946 10.5196 22 10.2652 22 10V3C22 2.73478 21.8946 2.48043 21.7071 2.29289C21.5196 2.10536 21.2652 2 21 2V2ZM20 9H15V4H20V9ZM21 13H14C13.7348 13 13.4804 13.1054 13.2929 13.2929C13.1054 13.4804 13 13.7348 13 14V21C13 21.2652 13.1054 21.5196 13.2929 21.7071C13.4804 21.8946 13.7348 22 14 22H21C21.2652 22 21.5196 21.8946 21.7071 21.7071C21.8946 21.5196 22 21.2652 22 21V14C22 13.7348 21.8946 13.4804 21.7071 13.2929C21.5196 13.1054 21.2652 13 21 13ZM20 20H15V15H20V20ZM10 2H3C2.73478 2 2.48043 2.10536 2.29289 2.29289C2.10536 2.48043 2 2.73478 2 3V10C2 10.2652 2.10536 10.5196 2.29289 10.7071C2.48043 10.8946 2.73478 11 3 11H10C10.2652 11 10.5196 10.8946 10.7071 10.7071C10.8946 10.5196 11 10.2652 11 10V3C11 2.73478 10.8946 2.48043 10.7071 2.29289C10.5196 2.10536 10.2652 2 10 2V2ZM9 9H4V4H9V9Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
               </div>
-              <div
-                class="rounded-md p-8 text-center transition duration-200 hover:bg-white hover:shadow-xl"
-              >
-                <div
-                  class="mx-auto mb-6 inline-flex h-16 w-16 items-center justify-center rounded-lg bg-sky-500 text-white"
-                >
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10 13H3C2.73478 13 2.48043 13.1054 2.29289 13.2929C2.10536 13.4804 2 13.7348 2 14V21C2 21.2652 2.10536 21.5196 2.29289 21.7071C2.48043 21.8946 2.73478 22 3 22H10C10.2652 22 10.5196 21.8946 10.7071 21.7071C10.8946 21.5196 11 21.2652 11 21V14C11 13.7348 10.8946 13.4804 10.7071 13.2929C10.5196 13.1054 10.2652 13 10 13ZM9 20H4V15H9V20ZM21 2H14C13.7348 2 13.4804 2.10536 13.2929 2.29289C13.1054 2.48043 13 2.73478 13 3V10C13 10.2652 13.1054 10.5196 13.2929 10.7071C13.4804 10.8946 13.7348 11 14 11H21C21.2652 11 21.5196 10.8946 21.7071 10.7071C21.8946 10.5196 22 10.2652 22 10V3C22 2.73478 21.8946 2.48043 21.7071 2.29289C21.5196 2.10536 21.2652 2 21 2V2ZM20 9H15V4H20V9ZM21 13H14C13.7348 13 13.4804 13.1054 13.2929 13.2929C13.1054 13.4804 13 13.7348 13 14V21C13 21.2652 13.1054 21.5196 13.2929 21.7071C13.4804 21.8946 13.7348 22 14 22H21C21.2652 22 21.5196 21.8946 21.7071 21.7071C21.8946 21.5196 22 21.2652 22 21V14C22 13.7348 21.8946 13.4804 21.7071 13.2929C21.5196 13.1054 21.2652 13 21 13ZM20 20H15V15H20V20ZM10 2H3C2.73478 2 2.48043 2.10536 2.29289 2.29289C2.10536 2.48043 2 2.73478 2 3V10C2 10.2652 2.10536 10.5196 2.29289 10.7071C2.48043 10.8946 2.73478 11 3 11H10C10.2652 11 10.5196 10.8946 10.7071 10.7071C10.8946 10.5196 11 10.2652 11 10V3C11 2.73478 10.8946 2.48043 10.7071 2.29289C10.5196 2.10536 10.2652 2 10 2V2ZM9 9H4V4H9V9Z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </div>
-                <h3 class="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                  Connect multiple apps
-                </h3>
-                <p class="font-medium text-[#556987]">
-                  The first business platform to bring together all of your
-                  products from one place.
-                </p>
-              </div>
+              <h3 class="mb-4 text-xl font-bold leading-tight md:text-2xl">
+                Connect multiple apps
+              </h3>
+              <p class="font-medium text-[#556987]">
+                The first business platform to bring together all of your
+                products from one place.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="overflow-x-hidden py-20 pb-8">
-        <div class="container mx-auto px-4">
-          <div class="mb-24 flex flex-wrap md:flex-nowrap">
-            <div class="h-128 relative mb-20 w-full lg:mb-0 lg:w-1/2">
-              <div
-                class="absolute top-0 right-0 mt-6 -mr-6 h-full w-full rounded-xl bg-sky-100"
-              ></div>
-              <img
-                class="absolute top-0 right-0 h-full w-full rounded-xl object-cover object-top"
-                src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
-                alt=""
+    <!-- ************************** Testimonials - 1 ************************** -->
+    <section class="overflow-x-hidden py-20 pb-8">
+      <div class="container mx-auto px-4">
+        <div class="mb-24 flex flex-wrap md:flex-nowrap">
+          <div class="h-128 relative mb-20 w-full lg:mb-0 lg:w-1/2">
+            <div
+              class="absolute top-0 right-0 mt-6 -mr-6 h-full w-full rounded-xl bg-sky-100"
+            ></div>
+            <img
+              class="absolute top-0 right-0 h-full w-full rounded-xl object-cover object-top"
+              src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
+              alt=""
+            />
+          </div>
+          <div class="my-auto w-full lg:w-1/2 lg:pl-24">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="42"
+              viewBox="0 0 48 42"
+              fill="none"
+            >
+              <path
+                d="M16.6153 19.154H10.1537C9.38437 19.154 8.73037 18.8849 8.19185 18.3463C7.65363 17.8078 7.38417 17.154 7.38417 16.3845V15.4619C7.38417 13.4233 8.10546 11.6831 9.54795 10.2406C10.9903 8.79859 12.7309 8.0773 14.7693 8.0773H16.6153C17.1152 8.0773 17.5477 7.89453 17.9133 7.52929C18.2786 7.16384 18.4613 6.73131 18.4613 6.23128V2.53864C18.4613 2.03872 18.2785 1.60578 17.9133 1.24034C17.5478 0.875398 17.1153 0.692322 16.6153 0.692322H14.7693C12.7691 0.692322 10.8608 1.08212 9.04327 1.86059C7.22595 2.63958 5.65404 3.69257 4.32694 5.01967C2.99994 6.34616 1.94726 7.91817 1.16837 9.7357C0.389491 11.553 0 13.4618 0 15.4618V35.769C0 37.3083 0.538216 38.6152 1.61515 39.6926C2.69219 40.7693 4.00019 41.3076 5.53856 41.3076H16.616C18.1542 41.3076 19.4618 40.7693 20.539 39.6926C21.6157 38.6152 22.1542 37.3083 22.1542 35.769V24.6926C22.1542 23.1536 21.6157 21.8466 20.5383 20.7692C19.4616 19.6925 18.1535 19.154 16.6153 19.154Z"
+                fill="#0ea5e9"
               />
-            </div>
-            <div class="my-auto w-full lg:w-1/2 lg:pl-24">
+              <path
+                d="M46.3856 20.7692C45.309 19.6925 44.0013 19.154 42.4626 19.154H36.0011C35.2322 19.154 34.5776 18.8849 34.04 18.3463C33.5012 17.8078 33.2323 17.154 33.2323 16.3845V15.4619C33.2323 13.4233 33.9536 11.6831 35.3954 10.2406C36.8372 8.79859 38.5777 8.0773 40.6171 8.0773H42.4627C42.9627 8.0773 43.3955 7.89453 43.7608 7.52929C44.1258 7.16384 44.3092 6.73131 44.3092 6.23128V2.53864C44.3092 2.03872 44.1259 1.60578 43.7608 1.24034C43.3956 0.875398 42.9628 0.692322 42.4627 0.692322H40.6171C38.6158 0.692322 36.7079 1.08212 34.8899 1.86059C33.0729 2.63958 31.5015 3.69257 30.1744 5.01967C28.8473 6.34616 27.7941 7.91817 27.0155 9.7357C26.2368 11.553 25.8468 13.4618 25.8468 15.4618V35.769C25.8468 37.3083 26.3855 38.6152 27.4622 39.6926C28.5389 40.7693 29.8466 41.3076 31.3852 41.3076H42.462C44.0006 41.3076 45.3082 40.7693 46.3849 39.6926C47.4623 38.6152 47.9999 37.3083 47.9999 35.769V24.6926C48 23.1535 47.4623 21.8466 46.3856 20.7692Z"
+                fill="#0ea5e9"
+              />
+            </svg>
+            <h2 class="font-heading my-4 text-4xl font-bold">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters
+            </h2>
+            <p class="mb-1 text-xl">Shre Yash</p>
+            <p class="text-sky-600">Software Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************************** Testimonials - 2 ************************** -->
+    <section class="relative py-12">
+      <div class="container mx-auto px-4">
+        <div class="-mx-4 mb-36 flex flex-wrap md:flex-nowrap xl:-mx-20">
+          <div class="mb-36 w-full px-4 lg:mb-0 lg:w-1/2 lg:px-20">
+            <div
+              class="relative rounded-md bg-white px-6 pt-4 pb-12 shadow-xl sm:pl-14 sm:pr-24"
+            >
+              <p class="mb-6 max-w-lg font-light">
+                “Success is not final, failure is not fatal: it is the courage
+                to continue that counts.”
+              </p>
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="42"
-                viewBox="0 0 48 42"
+                width="107"
+                height="18"
+                viewBox="0 0 107 18"
                 fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M16.6153 19.154H10.1537C9.38437 19.154 8.73037 18.8849 8.19185 18.3463C7.65363 17.8078 7.38417 17.154 7.38417 16.3845V15.4619C7.38417 13.4233 8.10546 11.6831 9.54795 10.2406C10.9903 8.79859 12.7309 8.0773 14.7693 8.0773H16.6153C17.1152 8.0773 17.5477 7.89453 17.9133 7.52929C18.2786 7.16384 18.4613 6.73131 18.4613 6.23128V2.53864C18.4613 2.03872 18.2785 1.60578 17.9133 1.24034C17.5478 0.875398 17.1153 0.692322 16.6153 0.692322H14.7693C12.7691 0.692322 10.8608 1.08212 9.04327 1.86059C7.22595 2.63958 5.65404 3.69257 4.32694 5.01967C2.99994 6.34616 1.94726 7.91817 1.16837 9.7357C0.389491 11.553 0 13.4618 0 15.4618V35.769C0 37.3083 0.538216 38.6152 1.61515 39.6926C2.69219 40.7693 4.00019 41.3076 5.53856 41.3076H16.616C18.1542 41.3076 19.4618 40.7693 20.539 39.6926C21.6157 38.6152 22.1542 37.3083 22.1542 35.769V24.6926C22.1542 23.1536 21.6157 21.8466 20.5383 20.7692C19.4616 19.6925 18.1535 19.154 16.6153 19.154Z"
-                  fill="#0ea5e9"
-                />
+                  d="M18.6328 7.12501H11.8078L9.63284 0.375L7.45781 7.12501H0.632812L6.19782 11.085L4.06783 17.625L9.63284 13.575L15.1979 17.625L13.0678 11.085L18.6328 7.12501Z"
+                  fill="#FFD700"
+                ></path>
                 <path
-                  d="M46.3856 20.7692C45.309 19.6925 44.0013 19.154 42.4626 19.154H36.0011C35.2322 19.154 34.5776 18.8849 34.04 18.3463C33.5012 17.8078 33.2323 17.154 33.2323 16.3845V15.4619C33.2323 13.4233 33.9536 11.6831 35.3954 10.2406C36.8372 8.79859 38.5777 8.0773 40.6171 8.0773H42.4627C42.9627 8.0773 43.3955 7.89453 43.7608 7.52929C44.1258 7.16384 44.3092 6.73131 44.3092 6.23128V2.53864C44.3092 2.03872 44.1259 1.60578 43.7608 1.24034C43.3956 0.875398 42.9628 0.692322 42.4627 0.692322H40.6171C38.6158 0.692322 36.7079 1.08212 34.8899 1.86059C33.0729 2.63958 31.5015 3.69257 30.1744 5.01967C28.8473 6.34616 27.7941 7.91817 27.0155 9.7357C26.2368 11.553 25.8468 13.4618 25.8468 15.4618V35.769C25.8468 37.3083 26.3855 38.6152 27.4622 39.6926C28.5389 40.7693 29.8466 41.3076 31.3852 41.3076H42.462C44.0006 41.3076 45.3082 40.7693 46.3849 39.6926C47.4623 38.6152 47.9999 37.3083 47.9999 35.769V24.6926C48 23.1535 47.4623 21.8466 46.3856 20.7692Z"
-                  fill="#0ea5e9"
-                />
+                  d="M40.7236 7.12501H33.8986L31.7237 0.375L29.5486 7.12501H22.7236L28.2886 11.085L26.1586 17.625L31.7237 13.575L37.2887 17.625L35.1586 11.085L40.7236 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M62.8145 7.12501H55.9895L53.8145 0.375L51.6394 7.12501H44.8145L50.3795 11.085L48.2495 17.625L53.8145 13.575L59.3795 17.625L57.2494 11.085L62.8145 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M84.9053 7.12501H78.0803L75.9053 0.375L73.7303 7.12501H66.9053L72.4703 11.085L70.3403 17.625L75.9053 13.575L81.4703 17.625L79.3403 11.085L84.9053 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M106.996 7.12501H100.171L97.9961 0.375L95.8211 7.12501H88.9961L94.5611 11.085L92.4311 17.625L97.9961 13.575L103.561 17.625L101.431 11.085L106.996 7.12501Z"
+                  fill="#FFD700"
+                ></path>
               </svg>
-              <h2 class="font-heading my-4 text-4xl font-bold">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters
-              </h2>
-              <p class="mb-1 text-xl">Shre Yash</p>
-              <p class="text-sky-600">Software Developer</p>
+              <div class="absolute bottom-0 left-0 ml-8 -mb-16 sm:ml-14">
+                <div class="relative mb-4 max-w-max flex-shrink-0">
+                  <img
+                    class="h-12 w-12 rounded-full object-cover"
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGh1bWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                    alt=""
+                  />
+                  <img
+                    class="absolute bottom-0 right-0 -mb-1 -mr-1 w-4"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/768px-Spotify_logo_without_text.svg.png"
+                    alt=""
+                  />
+                </div>
+                <div class="flex items-center">
+                  <span class="mr-3 text-lg font-medium"
+                    >Winston Churchill</span
+                  >
+                  <span class="text-gray-300">Spotify</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="3xl:px-20 w-full px-4 lg:-mt-24 lg:w-1/2">
+            <div
+              class="relative mb-36 rounded-md bg-white px-6 pt-4 pb-12 shadow-xl sm:pl-14 sm:pr-24"
+            >
+              <p class="mb-6 max-w-lg font-light">
+                “You define your own life. Don’t let other people write your
+                script.”
+              </p>
+              <svg
+                width="107"
+                height="18"
+                viewBox="0 0 107 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.6328 7.12501H11.8078L9.63284 0.375L7.45781 7.12501H0.632812L6.19782 11.085L4.06783 17.625L9.63284 13.575L15.1979 17.625L13.0678 11.085L18.6328 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M40.7236 7.12501H33.8986L31.7237 0.375L29.5486 7.12501H22.7236L28.2886 11.085L26.1586 17.625L31.7237 13.575L37.2887 17.625L35.1586 11.085L40.7236 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M62.8145 7.12501H55.9895L53.8145 0.375L51.6394 7.12501H44.8145L50.3795 11.085L48.2495 17.625L53.8145 13.575L59.3795 17.625L57.2494 11.085L62.8145 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M84.9053 7.12501H78.0803L75.9053 0.375L73.7303 7.12501H66.9053L72.4703 11.085L70.3403 17.625L75.9053 13.575L81.4703 17.625L79.3403 11.085L84.9053 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M106.996 7.12501H100.171L97.9961 0.375L95.8211 7.12501H88.9961L94.5611 11.085L92.4311 17.625L97.9961 13.575L103.561 17.625L101.431 11.085L106.996 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+              </svg>
+              <div class="absolute bottom-0 left-0 ml-8 -mb-16 sm:ml-14">
+                <div class="relative mb-4 max-w-max flex-shrink-0">
+                  <img
+                    class="h-12 w-12 rounded-full object-cover"
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGh1bWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                    alt=""
+                  />
+                  <img
+                    class="absolute bottom-0 right-0 -mb-1 -mr-1 w-4"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/768px-Spotify_logo_without_text.svg.png"
+                    alt=""
+                  />
+                </div>
+                <div class="flex items-center">
+                  <span class="mr-3 text-lg font-medium">Oprah Winfrey</span>
+                  <span class="text-gray-300">Spotify</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative rounded-md bg-white px-6 pt-4 pb-12 shadow-xl sm:pl-14 sm:pr-24"
+            >
+              <p class="mb-6 max-w-lg font-light">
+                “At the end of the day, whether or not those people are
+                comfortable with how you’re living your life doesn’t matter.
+                What matters is whether you’re comfortable with it.”
+              </p>
+              <svg
+                width="107"
+                height="18"
+                viewBox="0 0 107 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.6328 7.12501H11.8078L9.63284 0.375L7.45781 7.12501H0.632812L6.19782 11.085L4.06783 17.625L9.63284 13.575L15.1979 17.625L13.0678 11.085L18.6328 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M40.7236 7.12501H33.8986L31.7237 0.375L29.5486 7.12501H22.7236L28.2886 11.085L26.1586 17.625L31.7237 13.575L37.2887 17.625L35.1586 11.085L40.7236 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M62.8145 7.12501H55.9895L53.8145 0.375L51.6394 7.12501H44.8145L50.3795 11.085L48.2495 17.625L53.8145 13.575L59.3795 17.625L57.2494 11.085L62.8145 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M84.9053 7.12501H78.0803L75.9053 0.375L73.7303 7.12501H66.9053L72.4703 11.085L70.3403 17.625L75.9053 13.575L81.4703 17.625L79.3403 11.085L84.9053 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+                <path
+                  d="M106.996 7.12501H100.171L97.9961 0.375L95.8211 7.12501H88.9961L94.5611 11.085L92.4311 17.625L97.9961 13.575L103.561 17.625L101.431 11.085L106.996 7.12501Z"
+                  fill="#FFD700"
+                ></path>
+              </svg>
+              <div class="absolute bottom-0 left-0 ml-8 -mb-16 sm:ml-14">
+                <div class="relative mb-4 max-w-max flex-shrink-0">
+                  <img
+                    class="h-12 w-12 rounded-full object-cover"
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGh1bWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                    alt=""
+                  />
+                  <img
+                    class="absolute bottom-0 right-0 -mb-1 -mr-1 w-4"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/768px-Spotify_logo_without_text.svg.png"
+                    alt=""
+                  />
+                </div>
+                <div class="flex items-center">
+                  <span class="mr-3 text-lg font-medium">Dr. Phil</span>
+                  <span class="text-gray-300">Spotify</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="relative py-12">
-        <div class="container mx-auto px-4">
-          <div class="-mx-4 mb-36 flex flex-wrap md:flex-nowrap xl:-mx-20">
-            <div class="mb-36 w-full px-4 lg:mb-0 lg:w-1/2 lg:px-20">
+    <!-- ************************** Newsletter ************************** -->
+    <section
+      class="bg-top bg-no-repeat py-20"
+      style="background-image: url('/assets/img/blob.svg')"
+    >
+      <div class="container mx-auto px-4">
+        <div class="relative py-20 px-4 lg:p-20">
+          <div class="absolute top-0 left-0 -mt-8">
+            <img class="h-16" src="/assets/img/dots-left.svg" alt="" />
+          </div>
+          <div class="mx-auto max-w-lg text-center">
+            <h2 class="font-heading mb-4 text-3xl font-bold lg:text-4xl">
+              Be the first to know when we launch
+            </h2>
+            <p class="mb-8 text-gray-400">
+              Stay in the loop with everything you need to know.
+            </p>
+            <div class="flex flex-wrap md:flex-nowrap">
               <div
-                class="relative rounded-md bg-white px-6 pt-4 pb-12 shadow-xl sm:pl-14 sm:pr-24"
+                class="mb-3 flex w-full rounded bg-gray-100 px-3 md:mb-0 md:mr-2 md:w-[70%]"
               >
-                <p class="mb-6 max-w-lg font-light">
-                  “Success is not final, failure is not fatal: it is the courage
-                  to continue that counts.”
-                </p>
                 <svg
-                  width="107"
-                  height="18"
-                  viewBox="0 0 107 18"
-                  fill="none"
+                  class="my-auto h-6 w-6 text-gray-500"
                   xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
                 >
                   <path
-                    d="M18.6328 7.12501H11.8078L9.63284 0.375L7.45781 7.12501H0.632812L6.19782 11.085L4.06783 17.625L9.63284 13.575L15.1979 17.625L13.0678 11.085L18.6328 7.12501Z"
-                    fill="#FFD700"
+                    d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
                   ></path>
                   <path
-                    d="M40.7236 7.12501H33.8986L31.7237 0.375L29.5486 7.12501H22.7236L28.2886 11.085L26.1586 17.625L31.7237 13.575L37.2887 17.625L35.1586 11.085L40.7236 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M62.8145 7.12501H55.9895L53.8145 0.375L51.6394 7.12501H44.8145L50.3795 11.085L48.2495 17.625L53.8145 13.575L59.3795 17.625L57.2494 11.085L62.8145 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M84.9053 7.12501H78.0803L75.9053 0.375L73.7303 7.12501H66.9053L72.4703 11.085L70.3403 17.625L75.9053 13.575L81.4703 17.625L79.3403 11.085L84.9053 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M106.996 7.12501H100.171L97.9961 0.375L95.8211 7.12501H88.9961L94.5611 11.085L92.4311 17.625L97.9961 13.575L103.561 17.625L101.431 11.085L106.996 7.12501Z"
-                    fill="#FFD700"
+                    d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
                   ></path>
                 </svg>
-                <div class="absolute bottom-0 left-0 ml-8 -mb-16 sm:ml-14">
-                  <div class="relative mb-4 max-w-max flex-shrink-0">
-                    <img
-                      class="h-12 w-12 rounded-full object-cover"
-                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGh1bWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-                      alt=""
-                    />
-                    <img
-                      class="absolute bottom-0 right-0 -mb-1 -mr-1 w-4"
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/768px-Spotify_logo_without_text.svg.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="flex items-center">
-                    <span class="mr-3 text-lg font-medium"
-                      >Winston Churchill</span
+                <input
+                  class="w-full bg-gray-100 py-4 pl-3 text-xs font-semibold leading-none text-gray-400 outline-none placeholder:text-gray-900"
+                  type="text"
+                  placeholder="Type your e-mail"
+                />
+              </div>
+              <button
+                class="w-full rounded-lg bg-sky-400 py-3 px-4 text-base font-semibold text-white hover:bg-sky-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 md:w-[fit]"
+              >
+                Sign Up
+              </button>
+              <!-- <button
+                class="w-full rounded bg-sky-500 py-2 px-4 text-xs font-semibold leading-none text-white hover:bg-sky-700 md:w-fit"
+                type="submit"
+              >
+                Sign Up
+              </button> -->
+            </div>
+          </div>
+          <div class="absolute bottom-0 right-0">
+            <img class="h-16" src="/assets/img/dots-right.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************************** Blogs ************************** -->
+    <section class="overflow-hidden bg-white pt-20 pb-36">
+      <div class="container mx-auto px-4">
+        <div class="mx-auto mb-20 text-center md:max-w-lg">
+          <h2
+            class="font-heading mb-4 text-6xl font-semibold text-gray-900 sm:text-7xl"
+          >
+            Latest Blogs
+          </h2>
+          <p class="text-lg text-gray-700">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim.
+          </p>
+        </div>
+        <div class="- m-3 flex flex-wrap md:flex-nowrap">
+          <div class="w-full p-3 md:w-1/2 xl:w-1/4">
+            <a class="group" href="#">
+              <div
+                class="group relative flex h-full flex-col justify-end overflow-hidden rounded-xl"
+              >
+                <img
+                  class="mx-auto w-full transform transition duration-500 ease-out group-hover:scale-110"
+                  src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+                <div class="absolute bottom-0 left-0 w-full p-2.5">
+                  <div class="w-full rounded-md bg-black bg-opacity-80 p-5">
+                    <h2
+                      class="font-heading tracking-px mb-2 text-xs font-medium uppercase text-gray-400"
                     >
-                    <span class="text-gray-300">Spotify</span>
+                      Technology . 4 min read
+                    </h2>
+                    <p
+                      class="font-heading text-lg font-semibold text-white group-hover:underline xl:text-xl"
+                    >
+                      You will never believe these bizarre truth of travel.
+                    </p>
                   </div>
                 </div>
+              </div>
+            </a>
+          </div>
+          <div class="w-full p-3 md:w-1/2 xl:w-1/4">
+            <a class="group" href="#">
+              <div
+                class="group relative flex h-full flex-col justify-end overflow-hidden rounded-xl"
+              >
+                <img
+                  class="mx-auto w-full transform transition duration-500 ease-out group-hover:scale-110"
+                  src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+                <div class="absolute bottom-0 left-0 w-full p-2.5">
+                  <div class="w-full rounded-md bg-black bg-opacity-80 p-5">
+                    <h2
+                      class="font-heading tracking-px mb-2 text-xs font-medium uppercase text-gray-400"
+                    >
+                      Technology . 4 min read
+                    </h2>
+                    <p
+                      class="font-heading text-lg font-semibold text-white group-hover:underline"
+                    >
+                      You will never believe these bizarre truth of travel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="w-full p-3 md:w-1/2 xl:w-1/4">
+            <a class="group" href="#">
+              <div
+                class="group relative flex h-full flex-col justify-end overflow-hidden rounded-xl"
+              >
+                <img
+                  class="mx-auto w-full transform transition duration-500 ease-out group-hover:scale-110"
+                  src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+                <div class="absolute bottom-0 left-0 w-full p-2.5">
+                  <div class="w-full rounded-md bg-black bg-opacity-80 p-5">
+                    <h2
+                      class="font-heading tracking-px mb-2 text-xs font-medium uppercase text-gray-400"
+                    >
+                      Technology . 4 min read
+                    </h2>
+                    <p
+                      class="font-heading text-lg font-semibold text-white group-hover:underline"
+                    >
+                      You will never believe these bizarre truth of travel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="w-full p-3 md:w-1/2 xl:w-1/4">
+            <a class="group" href="#">
+              <div
+                class="group relative flex h-full flex-col justify-end overflow-hidden rounded-xl"
+              >
+                <img
+                  class="mx-auto w-full transform transition duration-500 ease-out group-hover:scale-110"
+                  src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+                <div class="absolute bottom-0 left-0 w-full p-2.5">
+                  <div class="w-full rounded-md bg-black bg-opacity-80 p-5">
+                    <h2
+                      class="font-heading tracking-px mb-2 text-xs font-medium uppercase text-gray-400"
+                    >
+                      Technology . 4 min read
+                    </h2>
+                    <p
+                      class="font-heading text-lg font-semibold text-white group-hover:underline"
+                    >
+                      You will never believe these bizarre truth of travel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************************** Connect Description ************************** -->
+    <section class="relative overflow-hidden pt-24 pb-32">
+      <div class="container mx-auto px-4">
+        <h2
+          class="mx-auto mb-5 text-center text-6xl font-bold text-gray-900 sm:text-7xl"
+        >
+          Connect with experts
+        </h2>
+        <p class="mx-auto mb-11 max-w-lg text-center text-lg text-gray-600">
+          We’re here to help and answer any question you might have. We look
+          forward to hearing from you
+        </p>
+        <div
+          class="mx-auto mb-12 flex max-w-4xl flex-wrap justify-center divide-y md:flex-nowrap md:divide-y-0 md:divide-x"
+        >
+          <div class="w-full p-11 md:w-1/3 md:py-0">
+            <div class="-m-1.5 flex flex-wrap">
+              <div class="w-auto px-1.5">
+                <svg
+                  class="relative top-1"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="11.25"
+                    stroke="#18181B"
+                    stroke-width="1.5"
+                  ></circle>
+                  <path
+                    d="M7.41357 12.6552L10.0343 15.2758L16.586 8.72412"
+                    stroke="#18181B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex-1 px-1.5">
+                <p class="font-heading text-2xl font-bold text-gray-900">1+</p>
+                <p class="text-base text-gray-600">Successful Projects</p>
               </div>
             </div>
-
-            <div class="3xl:px-20 w-full px-4 lg:-mt-24 lg:w-1/2">
-              <div
-                class="relative mb-36 rounded-md bg-white px-6 pt-4 pb-12 shadow-xl sm:pl-14 sm:pr-24"
-              >
-                <p class="mb-6 max-w-lg font-light">
-                  “You define your own life. Don’t let other people write your
-                  script.”
-                </p>
+          </div>
+          <div class="w-full p-11 md:w-1/3 md:py-0">
+            <div class="-m-1.5 flex flex-wrap">
+              <div class="w-auto px-1.5">
                 <svg
-                  width="107"
-                  height="18"
-                  viewBox="0 0 107 18"
+                  class="relative top-1"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="11.25"
+                    stroke="#18181B"
+                    stroke-width="1.5"
+                  ></circle>
                   <path
-                    d="M18.6328 7.12501H11.8078L9.63284 0.375L7.45781 7.12501H0.632812L6.19782 11.085L4.06783 17.625L9.63284 13.575L15.1979 17.625L13.0678 11.085L18.6328 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M40.7236 7.12501H33.8986L31.7237 0.375L29.5486 7.12501H22.7236L28.2886 11.085L26.1586 17.625L31.7237 13.575L37.2887 17.625L35.1586 11.085L40.7236 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M62.8145 7.12501H55.9895L53.8145 0.375L51.6394 7.12501H44.8145L50.3795 11.085L48.2495 17.625L53.8145 13.575L59.3795 17.625L57.2494 11.085L62.8145 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M84.9053 7.12501H78.0803L75.9053 0.375L73.7303 7.12501H66.9053L72.4703 11.085L70.3403 17.625L75.9053 13.575L81.4703 17.625L79.3403 11.085L84.9053 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M106.996 7.12501H100.171L97.9961 0.375L95.8211 7.12501H88.9961L94.5611 11.085L92.4311 17.625L97.9961 13.575L103.561 17.625L101.431 11.085L106.996 7.12501Z"
-                    fill="#FFD700"
+                    d="M7.41357 12.6552L10.0343 15.2758L16.586 8.72412"
+                    stroke="#18181B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   ></path>
                 </svg>
-                <div class="absolute bottom-0 left-0 ml-8 -mb-16 sm:ml-14">
-                  <div class="relative mb-4 max-w-max flex-shrink-0">
-                    <img
-                      class="h-12 w-12 rounded-full object-cover"
-                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGh1bWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-                      alt=""
-                    />
-                    <img
-                      class="absolute bottom-0 right-0 -mb-1 -mr-1 w-4"
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/768px-Spotify_logo_without_text.svg.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="flex items-center">
-                    <span class="mr-3 text-lg font-medium">Oprah Winfrey</span>
-                    <span class="text-gray-300">Spotify</span>
-                  </div>
-                </div>
               </div>
-              <div
-                class="relative rounded-md bg-white px-6 pt-4 pb-12 shadow-xl sm:pl-14 sm:pr-24"
-              >
-                <p class="mb-6 max-w-lg font-light">
-                  “At the end of the day, whether or not those people are
-                  comfortable with how you’re living your life doesn’t matter.
-                  What matters is whether you’re comfortable with it.”
+              <div class="flex-1 px-1.5">
+                <p class="font-heading text-2xl font-bold text-gray-900">
+                  1 years
                 </p>
+                <p class="text-base text-gray-600">Experienced Experts</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full p-11 md:w-1/3 md:py-0">
+            <div class="-m-1.5 flex flex-wrap">
+              <div class="w-auto px-1.5">
                 <svg
-                  width="107"
-                  height="18"
-                  viewBox="0 0 107 18"
+                  class="relative top-1"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="11.25"
+                    stroke="#18181B"
+                    stroke-width="1.5"
+                  ></circle>
                   <path
-                    d="M18.6328 7.12501H11.8078L9.63284 0.375L7.45781 7.12501H0.632812L6.19782 11.085L4.06783 17.625L9.63284 13.575L15.1979 17.625L13.0678 11.085L18.6328 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M40.7236 7.12501H33.8986L31.7237 0.375L29.5486 7.12501H22.7236L28.2886 11.085L26.1586 17.625L31.7237 13.575L37.2887 17.625L35.1586 11.085L40.7236 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M62.8145 7.12501H55.9895L53.8145 0.375L51.6394 7.12501H44.8145L50.3795 11.085L48.2495 17.625L53.8145 13.575L59.3795 17.625L57.2494 11.085L62.8145 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M84.9053 7.12501H78.0803L75.9053 0.375L73.7303 7.12501H66.9053L72.4703 11.085L70.3403 17.625L75.9053 13.575L81.4703 17.625L79.3403 11.085L84.9053 7.12501Z"
-                    fill="#FFD700"
-                  ></path>
-                  <path
-                    d="M106.996 7.12501H100.171L97.9961 0.375L95.8211 7.12501H88.9961L94.5611 11.085L92.4311 17.625L97.9961 13.575L103.561 17.625L101.431 11.085L106.996 7.12501Z"
-                    fill="#FFD700"
+                    d="M7.41357 12.6552L10.0343 15.2758L16.586 8.72412"
+                    stroke="#18181B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   ></path>
                 </svg>
-                <div class="absolute bottom-0 left-0 ml-8 -mb-16 sm:ml-14">
-                  <div class="relative mb-4 max-w-max flex-shrink-0">
-                    <img
-                      class="h-12 w-12 rounded-full object-cover"
-                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGh1bWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-                      alt=""
-                    />
-                    <img
-                      class="absolute bottom-0 right-0 -mb-1 -mr-1 w-4"
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/768px-Spotify_logo_without_text.svg.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="flex items-center">
-                    <span class="mr-3 text-lg font-medium">Dr. Phil</span>
-                    <span class="text-gray-300">Spotify</span>
-                  </div>
-                </div>
+              </div>
+              <div class="flex-1 px-1.5">
+                <p class="font-heading text-2xl font-bold text-gray-900">
+                  98.99%
+                </p>
+                <p class="text-base text-gray-600">Success Rate</p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+
+    <!-- ************************** Contact with us ************************** -->
+    <section class="relative w-full overflow-hidden bg-white">
+      <div class="absolute right-0 bottom-0 hidden h-full w-4/12 lg:block">
+        <img
+          class="h-full w-full object-cover"
+          src="https://images.unsplash.com/photo-1596485206311-2da5fafb3606?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+          alt=""
+        />
+      </div>
+      <div class="container relative mx-auto px-4">
+        <div class="mx-auto max-w-5xl">
+          <div class="-mx-4 flex flex-wrap py-20 2xl:py-40">
+            <div class="mb-8 w-full px-4 lg:mb-0 lg:w-2/5">
+              <span class="text-lg font-bold text-sky-500"
+                >Contact with us</span
+              >
+              <h2 class="font-heading mt-8 mb-12 text-5xl font-bold md:mb-20">
+                Our Office in Haridwar
+              </h2>
+              <div class="flex border-b border-gray-50 py-6">
+                <span
+                  class="mr-8 flex h-12 w-12 items-center justify-center rounded-lg bg-sky-500"
+                >
+                  <svg
+                    class="h-4 w-4"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17.9347 13.3167C17.811 12.6058 17.2022 12.0401 16.4551 11.94L12.3077 11.3855C11.555 11.2832 10.8101 11.6825 10.4984 12.3528C10.4185 12.5237 10.3521 12.7014 10.2981 12.8848C9.13582 12.4 8.09277 11.7004 7.19375 10.8018C6.29473 9.90315 5.59374 8.86053 5.10992 7.6987C5.29332 7.64471 5.4711 7.57835 5.64213 7.4985C6.31274 7.18695 6.70993 6.44351 6.60866 5.69108L6.05394 1.54536C5.9538 0.797426 5.38784 0.188953 4.66434 0.0641091C4.40105 0.0202451 4.18164 0 3.97348 0C2.61201 0 1.32368 0.71982 0.612565 1.87716C-0.157059 3.13122 -0.0501675 4.73507 0.128736 5.9925C0.533802 8.84029 1.99766 11.7038 4.14451 13.8498C5.74002 15.4446 7.71246 16.6402 9.84693 17.306C10.9339 17.6457 12.2942 18 13.605 18C14.5851 18 15.537 17.802 16.3235 17.2498C17.3733 16.5109 18 15.3052 18 14.0196C18 13.8115 17.9797 13.5911 17.9347 13.3167Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                </span>
+                <p class="text-lg font-bold">99 999 999 999</p>
+              </div>
+              <div class="flex items-center border-b border-gray-50 py-6">
+                <span
+                  class="mr-8 flex h-12 w-12 items-center justify-center rounded-lg bg-sky-500"
+                >
+                  <svg
+                    class="h-4 w-5"
+                    width="21"
+                    height="14"
+                    viewBox="0 0 21 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.8109 0H2.1878C0.981688 0 0 0.980499 0 2.18676V11.8119C0 13.0182 0.981688 14 2.1878 14H18.8122C20.0183 14 21 13.0182 21 11.8119V2.18676C20.9987 0.980499 20.017 0 18.8109 0ZM19.2492 4.73317L11.716 8.67092C11.3393 8.86387 10.9193 8.96887 10.4993 8.96887C10.0794 8.96887 9.66858 8.86387 9.28273 8.67092L1.74945 4.73317V2.75511L10.0872 7.11288C10.3405 7.24414 10.6555 7.24414 10.9101 7.11288L19.2479 2.75511V4.73317H19.2492Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                </span>
+                <p class="text-lg font-bold">example.com</p>
+              </div>
+              <div class="flex items-center py-6">
+                <span
+                  class="mr-8 flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-sky-500"
+                >
+                  <svg
+                    class="h-5 w-5"
+                    width="23"
+                    height="23"
+                    viewBox="0 0 23 23"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.5 11C16.0185 11 14 13.0962 14 15.6729C14 19.2285 17.8951 22.6871 18.0612 22.8339C18.3123 23.0554 18.6877 23.0554 18.9388 22.8339C19.1049 22.6885 23 19.2298 23 15.6729C23 13.0962 20.9815 11 18.5 11ZM18.5 17.4618C17.5077 17.4618 16.7003 16.6338 16.7003 15.6161C16.7003 14.5985 17.5077 13.7705 18.5 13.7705C19.4923 13.7705 20.2997 14.5985 20.2997 15.6161C20.2997 16.6338 19.4923 17.4618 18.5 17.4618Z"
+                      fill="white"
+                    ></path>
+                    <path
+                      d="M9.01758 0C4.04824 0 0 4.04035 0 9C0 13.9597 4.04824 18 9.01758 18C9.90081 18 10.7583 17.8745 11.5604 17.6315C10.1794 14.5374 10.8571 11.7539 12.7236 9.9193C12.6912 9.9193 12.2597 9.73436 12.2272 9.72086C8.69567 8.37903 5.3927 12.6232 8.35888 16.156C6.02299 15.94 4.00361 14.6171 2.84987 12.7096C4.09829 12.4153 5.00721 11.3057 5.02344 9.9922C5.04373 9.16199 5.60505 8.59232 6.30433 8.43573C9.41794 7.77021 9.7128 3.90535 8.51307 1.83051C9.34355 1.78461 10.0442 1.80756 11.0383 2.10049C10.7881 4.61407 12.1501 7.66087 15.1596 7.37468L16.0158 7.27614C16.0875 7.57312 16.1335 7.87011 16.1605 8.18464C16.7272 8.08745 17.4468 8.06855 18 8.17519C17.5739 3.60027 13.7056 0 9.01758 0Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                </span>
+                <div>
+                  <p class="mb-5 text-lg font-bold">
+                    Haridwar, Uttarakhand 249205
+                  </p>
+                  <p class="text-gray-400">Timing congue 10 AM - 5 PM</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-3/5">
+              <div
+                class="w-full rounded-lg bg-white px-8 py-16 shadow-lg lg:ml-20 lg:max-w-md lg:px-12"
+              >
+                <form action="#">
+                  <h3 class="font-heading mb-10 text-2xl font-bold">
+                    Send a message!
+                  </h3>
+                  <input
+                    class="mb-4 w-full rounded-lg border bg-white px-12 py-4 font-bold placeholder-gray-900 focus:outline-none"
+                    type="email"
+                    placeholder="example@gmail.com"
+                  />
+                  <input
+                    class="mb-4 w-full rounded-lg border bg-white px-12 py-4 font-bold placeholder-gray-900 focus:outline-none"
+                    type="text"
+                    placeholder="Subject"
+                  />
+                  <textarea
+                    class="mb-6 w-full resize-none rounded-lg border bg-white px-12 py-4 font-bold placeholder-gray-900 focus:outline-none"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Your message"
+                  ></textarea>
+                  <div class="mb-10 flex">
+                    <input type="checkbox" />
+                    <p class="max-w-xs pl-4 text-sm text-gray-300">
+                      By singning up, you agree to our Terms, Data Policy and
+                      Cookies.
+                    </p>
+                  </div>
+                  <div class="text-right">
+                    <button
+                      class="rounded-full bg-sky-500 py-4 px-12 font-bold text-white transition duration-200 hover:bg-sky-600"
+                    >
+                      Send
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="assets/js/script.js"></script>
   </body>
